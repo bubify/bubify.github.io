@@ -1,4 +1,5 @@
 site_name: Bubify
+site_url: https://bubify.github.io/
 repo_name: "Bubify @ Github"
 repo_url: "https://github.com/bubify/docker"
 theme:
