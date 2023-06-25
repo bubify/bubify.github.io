@@ -4,6 +4,7 @@ repo_name: "Bubify @ Github"
 repo_url: "https://github.com/bubify/docker"
 theme:
   name: material
+  logo: assets/logo.svg
   features:
     - navigation.tabs
     - navigation.sections
