@@ -15,6 +15,6 @@ Some comments from course evaluations (translated from Swedish) when students wh
 !!! quote
     Bubify, have all courses use one for presentations and assistance. So much better than all the other options I've come across ...
 
-# What Does the Word Bubify Mean?
+## What Does the Word Bubify Mean?
 
 The latin word for the [Eurasian eagle-owl](https://en.wikipedia.org/wiki/Eurasian_eagle-owl) is Bubo bubo and Bubify is simply a nominalization in honour of this beautiful animal.
