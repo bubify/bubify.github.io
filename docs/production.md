@@ -52,13 +52,11 @@ You may now run the initial setup wizard. But note that the backend server must 
 make setup
 ```
 
-You may also optionally populate with development users (to avoid the need for using CAS) and sample achievements.
+You may also populate with users and achievements. Replace `backend/toolbox/achievements.csv` and `backend/toolbox/users.csv` with your own configuration.
 ``` bash
 make add-user
 make add-achievement
 ```
-
-Note that data that is used is found in `backend/toolbox/achievements.csv` and `backend/toolbox/users.csv`.
 
 !!! warning
 
