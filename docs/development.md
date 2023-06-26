@@ -88,4 +88,4 @@ If you just want to reset the database you may instead use
 make clean-db
 ```
 
-Note that both will stop your containers, so you need to type `docker compose up -d` again.
+Note that both will stop your containers, so you need to type `make up-development` again.
