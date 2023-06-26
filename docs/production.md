@@ -11,7 +11,7 @@ You need to have Docker installed and at least 4 GB of memory during building. W
 
 Clone the project:
 ``` bash
-git clone --recurse-submodules https://github.com/bubify/docker.git
+git clone --recurse-submodules https://github.com/bubify/bubify-docker.git
 ```
 
 Then go into the `docker` folder get the latest updates

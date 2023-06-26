@@ -19,7 +19,7 @@ If you use macOS and can't use Docker Desktop due to their updated licence you m
 
 Clone the project:
 ``` bash
-git clone --recurse-submodules https://github.com/bubify/docker.git
+git clone --recurse-submodules https://github.com/bubify/bubify-docker.git
 ```
 
 Then go into the `docker` folder get the latest updates
