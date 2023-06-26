@@ -1,3 +1,7 @@
+---
+title: Development
+---
+
 # Installing Bubify for Development
 
 ## Prerequsites
@@ -23,10 +27,15 @@ Then go into the `docker` folder get the latest updates
 cd docker && make update
 ```
 
+Additionally, copy the environment template for development. There should be no need to change them.
+``` bash
+cp .env.development.template .env.development
+```
+
 You can now build the docker compose project and start it as a deamon
 ``` bash
-docker compose build
-docker compose up -d
+make build-development
+make up-development
 ```
 
 You may continuously track the logs for the frontend and backend
@@ -39,7 +48,7 @@ docker logs -f bubify-frontend
 
     Setup a `tmux` session that tracks the logs in split screen
 
-You may now run the initial setup wizard
+You may now run the initial setup wizard. But note that the backend server must have finished its initial initalization.
 ``` bash
 make setup
 ```
@@ -60,6 +69,11 @@ If achievements or new users are not appearing in the frontend try clearing your
 
 ``` bash
 make restart-backend
+```
+
+If you wish to stop the containers you can do so with
+``` bash
+make down-development
 ```
 
 ## Cleaning
