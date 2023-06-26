@@ -2,7 +2,11 @@
 
 ## What is Bubify?
 
-Bubify is a web application to track student's progress for achievement based courses and queues in real time. It can optionally serve only as a queue management tool. The queue management aspect is especially useful when students are scattered in more than one classroom and teachers need to ensure that all students get attention.
+Bubify is a web application with two main components: *queue management* and *progress tracking*.
+
+The purpose of the *queue management* component is to handle students queueing to get access to teachers or teaching assistants (TAs) in a lab session: students add themselves to a queue, teachers and TAs can see who is queuing, where the students are seated, and what they want help with, and claim entries in the queue in any order. Students can see who else is queueing and their place in the queue.
+
+The *progress tracking* component has been constructed with mastery learning in mind, but is general enough to work with any kinds of assignments or tasks. Here, students are supposed to demonstrate mastery of some goals (about 50–70 in the course for which Bubify was originally developed), and can track their progress and velocity. A special version of the queue management component is used to request and manage demonstrations, and at the end of a demonstration, teachers and TAs record goal fulfilment in a simple and efficient workflow, and results become visible to the students immediately.
 
 ## Who is using Bubify?
 
