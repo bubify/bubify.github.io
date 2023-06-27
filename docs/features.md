@@ -24,7 +24,7 @@ There is also a help list. Courses may allow for a hybrid mode where students ar
 
 ### Queue: Demonstrate
 ![List of help requests](assets/features/demo_ta.gif){ align=left }
-First time a student demonstrates you verify that the profile picture is acceptable. A student may only reupload a new profile picture if a teacher revokes it. This ensures that it is not possible to let someone else demonstrate on your behalf.
+First time a student demonstrates you verify that the profile picture is acceptable, for example by requiring valid identification. A student may only reupload a new profile picture if a teacher revokes it. This ensures that it is not possible to let someone else demonstrate on your behalf.
 
 ### Queue: Help
 ![List of help requests as teacher](assets/features/help_request_teacher.png){ align=left }
