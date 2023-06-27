@@ -21,4 +21,5 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
       - run: pip install mkdocs-glightbox
+      - run: pip install mkdocs-render-swagger-plugin
       - run: mkdocs gh-deploy --force
