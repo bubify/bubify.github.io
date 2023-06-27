@@ -8,6 +8,7 @@ nav:
   - Installation:
     - Development: development.md
     - Production: production.md
+  - API Reference: reference.md
 
 theme:
   name: material
@@ -42,6 +43,7 @@ plugins:
   - social
   - glightbox
   - search
+  - render_swagger
 
 extra:
   social:
