@@ -32,7 +32,7 @@ Additionally, copy the environment template for development. There should be no 
 cp .env.development.template .env.development
 ```
 
-You can now build the docker compose project and start it as a deamon
+You can now build the docker compose project and start it as a deamon. The frontend can be accessed at [http://localhost:3000](http://localhost:3000).
 ``` bash
 make build-development
 make up-development
