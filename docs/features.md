@@ -8,6 +8,9 @@
 ### List of Passed Achievements
 ![My achievements](assets/features/my_acheievements.png){ align=left }
 
+### Queue: Demonstrate
+![List of help requests](assets/features/demo_student.gif){ align=left }
+
 ### Queue: Help
 ![List of help requests](assets/features/help_request.png){ align=left }
 
@@ -15,3 +18,7 @@
 
 ### Queue: Help
 ![List of help requests as teacher](assets/features/help_request_teacher.png){ align=left }
+
+### Statistics: Quality of Service
+
+![List of help requests as teacher](assets/features/qos.png){ align=left }
