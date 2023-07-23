@@ -12,12 +12,14 @@ The *progress tracking* component has been constructed with mastery learning in 
 
 Bubify is used by several courses in computer science at Uppsala Univeristy, serving 1000+ students so far.
 
-Some comments from course evaluations (translated from Swedish) when students where asked to point out good aspects of the course:
+Some comments from course evaluations (*) when students where asked to point out good aspects of the course:
 !!! quote
     Bubify. Awesome Bubify. It has been so incredibly satisfying to see my progress all the time ...
 
 !!! quote
     Bubify, have all courses use one for presentations and assistance. So much better than all the other options I've come across ...
+
+_ * = translated from Swedish and updated old name to current_
 
 ## What Does the Word Bubify Mean?
 
