@@ -19,7 +19,7 @@ Some comments from course evaluations (*) when students where asked to point out
 !!! quote
     Bubify, have all courses use one for presentations and assistance. So much better than all the other options I've come across ...
 
-_ * = translated from Swedish and updated old name to current_
+_* = translated from Swedish and updated old name to current_
 
 ## What Does the Word Bubify Mean?
 
