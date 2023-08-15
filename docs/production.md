@@ -14,9 +14,9 @@ Clone the project:
 git clone --recurse-submodules https://github.com/bubify/bubify-docker.git
 ```
 
-Then go into the `docker` folder get the latest updates
+Then go into the `bubify-docker` folder get the latest updates
 ``` bash
-cd docker && make update
+cd bubify-docker && make update
 ```
 
 Additionally, copy the environment template for production.
