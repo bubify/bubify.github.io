@@ -1,4 +1,6 @@
-[Link to introduction tutorial for tutorial](https://docs.google.com/document/d/1aMf2fVhNKk9PnDTSvTQsIZhnOowwV24FFVRkWyT75JQ)
+[Link to introduction tutorial for Hackathon!](https://docs.google.com/document/d/1aMf2fVhNKk9PnDTSvTQsIZhnOowwV24FFVRkWyT75JQ)
+
+---
 
 Lösa idéer på vad man kan kika på efter tutorial:
 
