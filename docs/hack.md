@@ -1,6 +1,7 @@
 [Link to introduction tutorial for tutorial](https://docs.google.com/document/d/1aMf2fVhNKk9PnDTSvTQsIZhnOowwV24FFVRkWyT75JQ)
 
 Lösa idéer på vad man kan kika på efter tutorial:
+
 * Statiskt kompilera in rum (som config-fil)
 
   * Kan börja med att ha det i settings (och cache:a så att det inte är databasuppslagningar varje gång)
