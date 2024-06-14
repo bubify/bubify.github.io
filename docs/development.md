@@ -85,3 +85,67 @@ make clean-db
 ```
 
 Note that both will stop your containers, so you need to type `make up-development` again.
+
+## Run Tests Using Docker
+
+To run the test suite in a Docker container, choose one of the following build rules, depending on what testing level you are targeting (both, unit or integration):
+
+``` bash
+make build-testing
+```
+``` bash
+make build-testing-unit
+```
+``` bash
+make build-testing-integration
+```
+
+Launch container and start tests:
+``` bash
+make up-testing
+```
+
+Test results are printed directly into the Logs page for the `bubify-backend-testing` container and may also be examined afterwards in the your local `backend/test-reports/` folder. Unit test results are found in the `surefire-reports` folder, integration tests in `failsafe-reports` folder and code coverage for the executed test scope in `jacoco` folder.
+
+Stop test container:
+``` bash
+make down-testing
+```
+
+### Reset test suite
+
+If something goes terribly wrong you might want to reset everything (including your Docker containers) with
+``` bash
+make clean
+```
+
+Note that this will stop all containers, so you need to type `make up-testing` again.
+
+### Run tests locally
+If you prefer you can also run the tests directly in the `backend` folder.
+
+To run the full test suite on your machine change directory to `./backend` and:
+``` bash
+make test
+```
+
+To run units test only on your machine:
+``` bash
+make test-unit
+```
+
+To run integration tests on your machine:
+``` bash
+make test-integration
+```
+
+Test results are printed directly into your terminal and may also be examined afterwards in your local `backend/target/` folder. Unit test results are found in the `surefire-reports` folder, integration tests in `failsafe-reports` folder and code coverage for the executed test scope in `jacoco` folder.
+
+### Contribute by adding more tests
+
+The test suite currently covers all classes in the `models` and `repository` folders for unit tests. For integration tests, some classes in the `controllers` folder are targeted. To contribute and expand the suite to cover all APIs, navigate to the `backend/src/test/java/com/uu/au/api/` folder and create a new test class. Good to know before you get started:
+
+- Class names must include `IT` for them to be identified and run as integration tests.
+- The `@DirtiesContext` annotation ensures the Spring Boot app and database are restarted between each test. Note that the DB is always wiped between tests.
+- Make sure to copy the `setup` method from another IT class and inject the `TestHelper` in your class. These two together ensure each test is initiated by creating a course, user, and retrieving the necessary token to authenticate to Bubify.
+- `TestHelper` also helps you populate and retrieve data from the database through API calls stored in various methods. Feel free to use these and expand the `TestHelper` with more methods as necessary.
