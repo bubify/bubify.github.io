@@ -9,11 +9,7 @@ title: Development
 You need to have Docker installed and at least 4 GB of memory.
 
 ### macOS
-If you use macOS and can't use Docker Desktop due to their updated licence you may use [colima](https://github.com/abiosoft/colima) instead.
-
-!!! warning
-
-    Be sure to start with `colima start --memory 4` as the default of 2 GB might not be enough. Also note that you may increase the number of CPU that colima is using.
+If you use macOS and can't use Docker Desktop due to their updated licence you may use [OrbStack](https://orbstack.dev/) instead.
 
 ## Installing
 
