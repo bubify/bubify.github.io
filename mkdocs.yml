@@ -8,6 +8,7 @@ nav:
   - Installation:
     - Development: development.md
     - Production: production.md
+    - Testing: testing.md
   - API Reference: reference.md
 
 theme:
